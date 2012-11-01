@@ -1,6 +1,92 @@
+:root {
+    --primary: #110D22;
+    --secondary: #858290;
+    --white: #fff;
+    --grey: #cda9f1;
+    --orange: #ffb680;
+    --purple: #252427;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: Helvetica;
+}
 
+.header {
+    background-color: var(--primary);
+    height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.header p {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+.main {
+    background-color: var(--secondary);
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.main p {
+    font-size: 6.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: .4;
+}
+.main p span {
+    color: red;
+}
+.main p .blue {
+    color: blue;
+}
+.search {
+    background-color: cornflowerblue;
+    height: 20vh;
+    display: grid;
+    grid-template: repeat(2, 1fr)  / 1fr;
+}
+.search p {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
+}
+.search form {
+    display: grid;
+    grid-template-columns: 5rem 1fr ;
+}
+.search form .icon {
+    background-color: darkblue;
+}
+.search form input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+.search form input::placeholder {
+    text-transform: uppercase;
+    padding-left: 2rem ;
+}
+.primary {
+    background-color: var(--grey);
+    height: 30rem;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr) ;
+}
+.secondary {
+    background-color: var(--orange);
+}
+.footer{
+    background-color: var(--purple);
+}
