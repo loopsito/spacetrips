@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-        <img src="favicon.png" alt="un cohete">
+        <img src="./src/favicon.png" alt="un cohete">
         <p class="header__p">spacetrips</p>
     </header>
     <main class="main">
@@ -36,21 +36,23 @@
                 <p>Ir al sitio</p>
             </div>
             <picture>
-                <img src="./despegar.jpg" alt="">
+                <source media="(min-width: 768px)" srcset="./src/despegar.jpg">
+                <img src="./src/mobiledespegar.jpg" alt="Nave espacial despegando">
             </picture>
         </figure>
         <div class="right ">
             <p>SpaceX falcon 9 landing</p>
         </div>
         <div class="left">
-            <p>James Anstrong showing the flag</p>
+            <p>Amstrong and the US flag</p>
         </div>
         <figure class="primary__img--two">
             <div class="overlay">
                 <p>Ir al sitio</p>
             </div>
-            <picture>
-                <img src="./luna.jpg" alt="">
+            <picture> 
+                <source media="(min-width: 768px)" srcset="./src/luna.jpg">
+                <img src="./src/mobileluna.jpg" alt="Astronauta en la luna">
             </picture>
         </figure>
     </section>
@@ -60,18 +62,20 @@
                 <p>Ir al sitio</p>
             </div>
             <picture>
-                <img class="secondary__main--img" src="./astro.jpg" alt="un astronauta">
+                <source media="(min-width: 768px)" srcset="./src/astro.jpg">
+                <img class="secondary__main--img" src="./src/mobileastro.jpg" alt="Un astronauta">
             </picture>
         </figure>
         <div class="secondary__text">
-            <p>moon awakening</p>
+            <p>we are going so far</p>
         </div>
         <figure class="secondary__pic">
             <div class="overlay">
                 <p>Ir al sitio</p>
             </div>
             <picture>
-                <img src="./nave.jpg" alt="">
+                <source media="(min-width: 768px)" srcset="./src/nave.jpg">
+                <img src="./src/mobilenave.jpg" alt="Una nave espacial">
             </picture>
         </figure>
         <div class="last-text">
@@ -85,6 +89,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>

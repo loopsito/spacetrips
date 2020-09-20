@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 768px ) {
     .primary {
         grid-template: 20rem 10rem 10rem 20rem/ repeat(2, 1fr);
@@ -45,6 +46,14 @@
         grid-column: 1/2;
         grid-row: 1/5;
     }
+    .secondary_main:hover .overlay {
+        display: flex;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 
     .secondary__text {
         grid-column: 2/3;
@@ -52,5 +61,11 @@
     }
     .last-text {
         grid-row: 3/4;
+    }
+}
+@media screen and (min-width: 1300px ) {
+    body {
+        width: 130rem;
+        margin: 0 auto;
     }
 }

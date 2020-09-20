@@ -23,7 +23,7 @@ html {
     display: grid;
     align-items: center;
     grid-template-columns: 50px 1fr;
-    background-image: url(../estrelllas.png);
+    background-image: url(../src/estrelllas.png);
 }
 .header img {
     padding-left: 1rem;
@@ -45,7 +45,7 @@ html {
 
 }
 .estrellas {
-    background-image: url(../estrelllas.png);
+    background-image: url(../src/estrelllas.png);
     position: absolute;
     top: 0;
     left: 0;
@@ -183,10 +183,7 @@ html {
 .secondary_main:hover .overlay {
     display: flex;
     cursor: pointer;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    min-height: 40rem;
 }
 .secondary__main--img {
     min-height: 40rem;
