@@ -3,65 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpacesTrips | Landing </title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="./css/table.css">
+    <title>Spacetrips | Landing </title>
 </head>
 <body>
     <header class="header">
+        <img src="favicon.png" alt="un cohete">
         <p class="header__p">spacetrips</p>
     </header>
     <main class="main">
-        <p> <span class="blue">s</span>pa<span>ces</span>  s<span>hi</span>ps </p>
+        <div class="estrellas"></div>
+        <p data-aos="zoom-in" data-aos-duration="2000"> <span class="blue">w</span>e ar<span>e</span>  in t<span>he </span> moo<span class="blue">n</span>  </p>
     </main>
     <section class="search">
         <p class="search__p">Search</p>
         <form action="" class="search__form">
-            <div class="icon"></div>
+            <div class="icon">
+                <img src="https://img.icons8.com/ios-glyphs/50/000000/search.png"/>
+            </div>
             <label for="">
                 <input type="text" placeholder="falcon 9">
             </label>
         </form>
     </section>
     <section class="primary">
-        <figure>
+        <figure class="primary__img--one">
+            <div class="overlay">
+                <p>Ir al sitio</p>
+            </div>
             <picture>
-                <img src="" alt="">
+                <img src="./despegar.jpg" alt="">
             </picture>
         </figure>
-        <div>
-            <p>Image description</p>
+        <div class="right ">
+            <p>SpaceX falcon 9 landing</p>
         </div>
-        <figure>
+        <div class="left">
+            <p>James Anstrong showing the flag</p>
+        </div>
+        <figure class="primary__img--two">
+            <div class="overlay">
+                <p>Ir al sitio</p>
+            </div>
             <picture>
-                <img src="" alt="">
+                <img src="./luna.jpg" alt="">
             </picture>
         </figure>
-        <div>
-            <p>Image description</p>
-        </div>
     </section>
     <section class="secondary">
-        <figure>
+        <figure class="secondary_main" data-aos="fade-up">
+            <div class="overlay">
+                <p>Ir al sitio</p>
+            </div>
             <picture>
-                <img src="" alt="">
+                <img class="secondary__main--img" src="./astro.jpg" alt="un astronauta">
             </picture>
         </figure>
-        <div>
-            <p>Image description</p>
+        <div class="secondary__text">
+            <p>moon awakening</p>
         </div>
-        <figure>
+        <figure class="secondary__pic">
+            <div class="overlay">
+                <p>Ir al sitio</p>
+            </div>
             <picture>
-                <img src="" alt="">
+                <img src="./nave.jpg" alt="">
             </picture>
         </figure>
-        <div>
-            <p>Image description</p>
+        <div class="last-text">
+            <p>mars is our dream</p>
         </div>
     </section>
     <footer class="footer">
         <p>Created by</p>
-        <p><a href="#"> Valeria Brito</a></p>
-        <p><a href=""> @loopsito</a></p>
+        <p><a href="#"> @loopsito</a></p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
