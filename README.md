@@ -11,7 +11,7 @@ Si bien GRID nos permite un mayor control de las dimesiones no quiere decir que 
 
 
 ## Ventajas de css grid
-- **Es mucho más flexible **:  porque permite controlar las dos dimensiones de nuestros elementos.
+- **Es mucho más flexible**:  porque permite controlar las dos dimensiones de nuestros elementos.
 
 - **Menos código para el mismo propósito** : como las declaraciones son muy específicas, en una sola línea se pueden setear más cosas a la vez.
 
