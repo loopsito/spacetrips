@@ -18,3 +18,5 @@ Si bien GRID nos permite un mayor control de las dimesiones no quiere decir que 
 - **Responsive rapido**: justo por el control que nos otorga, hacer mas dinamicos contendeores o items del layout es mucho mas sencillo.
 
 ## Conclusión
+
+Definir el tipo de display que te conviene usar depende más que todo del diseño que quieras lograr, pero considero indispensable manejar ambos e  indudablemente no usar solo uno. Como dije antes entre ellos se complementan y muchas veces el uso de uno u otro podria simplificar mucho el trabajo y ahorrar lineas de código.
